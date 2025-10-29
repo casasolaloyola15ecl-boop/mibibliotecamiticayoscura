@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biblioteca Mística y Oscura</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Variables CSS */
+        :root {
+            --color-primary: #1e3a24; 
+            --color-secondary: #f0f0e0; 
+            --color-accent: #cc7722; 
+            --shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* ESTILOS GLOBALES Y FONDO CREATIVO */
+        body { 
+            font-family: 'Roboto', sans-serif; 
+            margin: 0; 
+            padding: 0;
+            background: linear-gradient(135deg, #f0f0e0 0%, #d4d4c4 100%); 
+            color: #333; 
+        }
+
+        /* HEADER CREATIVO */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--color-primary);
+            color: var(--color-secondary);
+            margin-bottom: 30px;
+            box-shadow: var(--shadow);
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        header p {
+            font-weight: 300;
+            margin-top: 10px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* SECCIONES Y TÍTULOS */
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--color-accent);
+            border-bottom: 3px solid var(--color-primary);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 2em;
+        }
+
+        /* ESTILO CREATIVO PARA TARJETAS DE LIBROS */
+        .book-item {
+            display: flex; 
+            align-items: flex-start; 
+            margin-bottom: 25px; 
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .book-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background-color: var(--color-secondary);
+        }
+
+        .book-cover { 
+            width: 120px; 
+            height: auto; 
+            object-fit: cover; 
+            border-radius: 6px; 
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+            border: 2px solid var(--color-primary);
+            flex-shrink: 0; 
+        }
+
+        .book-info { 
+            flex-grow: 1; 
+            padding-left: 25px; 
+        }
+
+        .book-title { 
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em; 
+            color: var(--color-primary); 
+            display: block; 
+            margin-bottom: 5px;
+        }
+        .book-author { 
+            font-weight: 400;
+            color: #666; 
+            display: block; 
+            margin-bottom: 10px; 
+        }
+        
+        /* Estilo para Hipervínculos */
+        a { text-decoration: none; color: inherit; } 
+        a:hover .book-title { color: var(--color-accent); text-decoration: underline; }
+
+        /* Contenedor de Videos */
+        .video-container { 
+            margin-top: 20px; 
+            text-align: center; 
+            border-top: 1px dashed #ccc; 
+            padding-top: 15px; 
+        }
+        .video-container p { 
+            font-style: italic; 
+            color: #555; 
+        }
+        /* Estilo para la etiqueta <video> */
+        video { 
+            width: 100%; 
+            max-width: 560px; 
+            height: auto; 
+            border: none; 
+            border-radius: 8px; 
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center; 
+            padding: 20px; 
+            background-color: var(--color-primary); 
+            color: var(--color-secondary); 
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <audio autoplay loop controls>
+  <source src="WhatsApp Audio 2025-10-28 at 9.17.14 PM.mp4" type="audio/mpeg">
+  Tu navegador no soporta la etiqueta de audio.
+</audio>
+
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+
+    <header>
+        <h1>📖 La Biblioteca de Alejandría Digital 🎧</h1>
+        <p>Un compendio de la humanidad, lo místico y el terror.</p>
+    </header>
+
+    <main>
+        <section id="educacion">
+            <h2>✨ Educación y Cultura 🌍</h2>
+            
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/Sapiens:_De_animales_a_dioses" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM (3).jpeg" alt="Portada de Sapiens" class="book-cover">
+                </a>
+                <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/Sapiens:_De_animales_a_dioses" target="_blank">
+                        <span class="book-title">Sapiens: De animales a dioses</span>
+                    </a>
+                    <span class="book-author">por Yuval Noah Harari</span>
+                    <p>Una fascinante exploración de la historia de la humanidad, desde sus orígenes hasta el futuro.</p>
+                    <div class="video-container">
+                        <p>Video relacionado sobre el libro:</p>
+                        <video src="WhatsApp Video 2025-10-28 at 6.09.48 PM.mp4" controls></video> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/Las_venas_abiertas_de_América_Latina" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM (1).jpeg" alt="Portada de Las Venas Abiertas" class="book-cover">
+                </a>
+                <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/Las_venas_abiertas_de_América_Latina" target="_blank">
+                        <span class="book-title">Las Venas Abiertas de América Latina</span>
+                    </a>
+                    <span class="book-author">por Eduardo Galeano</span>
+                    <p>Obra esencial sobre la explotación de América Latina desde la conquista hasta la actualidad.</p>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="historia">
+            <h2>🏰 Historia y Literatura Clásica 📜</h2>
+
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/La_Divina_Comedia" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM (2).jpeg" alt="Portada de La Divina Comedia" class="book-cover">
+                </a>
+                <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/La_Divina_Comedia" target="_blank">
+                        <span class="book-title">La Divina Comedia</span>
+                    </a>
+                    <span class="book-author">por Dante Alighieri</span>
+                    <p>Un épico viaje a través del Infierno, el Purgatorio y el Paraíso, obra maestra de la literatura universal.</p>
+                </div>
+            </div>
+            
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/Vikingo" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM.jpeg" alt="Portada de Los Vikingos" class="book-cover">
+                </a>
+                <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/Vikingo" target="_blank">
+                        <span class="book-title">Los Vikingos</span>
+                    </a>
+                    <span class="book-author">por John Haywood</span>
+                    <p>La historia de estos exploradores, comerciantes y guerreros nórdicos.</p>
+                    <div class="video-container">
+                        <p>Documental relacionado:</p>
+                        <video src="WhatsApp Video 2025-10-28 at 6.43.33 PM (1).mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="terror">
+            <h2>👻 Terror y Horror Clásico 🔪</h2>
+
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/It_(novela)" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM (5).jpeg" alt="Portada de It (Eso)" class="book-cover">
+                </a>
+                <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/It_(novela)" target="_blank">
+                        <span class="book-title">It (Eso)</span>
+                    </a>
+                    <span class="book-author">por Stephen King</span>
+                    <p>Una entidad malévola aterroriza a un grupo de niños en Derry, Maine.</p>
+                </div>
+            </div>
+
+            <div class="book-item">
+                <a href="https://es.wikipedia.org/wiki/Drácula" target="_blank">
+                    <img src="WhatsApp Image 2025-10-28 at 6.43.33 PM (4).jpeg" alt="Portada de Drácula" class="book-cover"> 
+                </a> <div class="book-info">
+                    <a href="https://es.wikipedia.org/wiki/Drácula" target="_blank">
+                        <span class="book-title">Drácula</span>
+                    </a>
+                    <span class="book-author">por Bram Stoker</span>
+                    <p>La novela gótica que definió el mito del vampiro moderno.</p>
+                    <div class="video-container">
+                        <p>Tráiler de película de terror clásica:</p>
+                        <video src="WhatsApp Video 2025-10-28 at 6.09.38 PM.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca Ficticia | Diseñado para la Cultura y el Misterio</p>
+    </footer>
+
+</body>
+</html>
+
+
